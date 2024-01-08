@@ -53,7 +53,7 @@ from telethon.utils import pack_bot_file_id
 from .config import Config 
 
 batch_lock = asyncio.Lock()
-bot_id = Config.BOT_TOKEN.split(":", 1)[0]
+bot_id = BOT_TOKEN.split(":", 1)[0]
 botStartTime = time.time()
 caption_file = "NO_CAPTION"
 ffmpeg_file = "ffmpeg.txt"
