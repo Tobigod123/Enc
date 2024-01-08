@@ -71,7 +71,7 @@ class Config:
             self.TEMP_USER = config("TEMP_USERS", default=str())
             self.TG_DL_CLIENT = config("TG_DL_CLIENT", default="pyrogram")
             self.TG_UL_CLIENT = config("TG_UL_CLIENT", default="pyrogram")
-            self.THUMB = config("THUMBNAIL", default="https://telegra.ph/file/1c2a8f45940e4cb43dbeb.jpg")
+            self.THUMB = config("THUMBNAIL", default="https://telegra.ph/file/6c477e9ac15d25f09ff99.jpg")
         except Exception:
             print("Environment vars Missing; or")
             print("something went wrong")
