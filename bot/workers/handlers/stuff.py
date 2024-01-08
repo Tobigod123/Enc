@@ -123,9 +123,9 @@ async def start(event, args, client):
                     "Source-Code (Original)",
                     url="github.com/1Danish-00/compressorqueue",
                 ),
-                Button.url("Developer (Original)", url="t.me/danish_00"),
+                Button.url("Developer (Original)", url="t.me/ninja_obito_sai"),
             ],
-            [Button.url("Fork Maintainer", url="t.me/Col_serra")],
+            [Button.url("Fork Maintainer", url="t.me/ninja_obito_sai")],
         ],
     )
 
@@ -137,9 +137,6 @@ async def help(event, args, client):
 async def ihelp(event):
     await event.edit(
         "**⛩️ An Encode bot**\n\n+"
-        "This bot encodes videos With your custom ffmpeg or handbrake-cli settings."
-        "\n+Easy to Use (Depends)\n"
-        "-Due to your custom Settings & hosting server bot may or may not take a long time to encode"
         ".\n\nJust Forward a Video…/videos"
         "\n\nFor available commands click the Commands button below.",
         buttons=[
@@ -174,9 +171,9 @@ async def beck(event):
                     "Source-Code (Original)",
                     url="github.com/1Danish-00/compressorqueue",
                 ),
-                Button.url("Developer (Original)", url="t.me/danish_00"),
+                Button.url("Developer (Original)", url="t.me/ninja_obito_sai"),
             ],
-            [Button.url("Fork Maintainer", url="t.me/Col_serra")],
+            [Button.url("Fork Maintainer", url="t.me/ninja_obito_sai")],
         ],
     )
 
