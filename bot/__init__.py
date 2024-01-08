@@ -50,10 +50,10 @@ from telethon import Button, TelegramClient, errors, events, functions, types
 from telethon.sessions import StringSession
 from telethon.utils import pack_bot_file_id
 
-from .config import conf
+from .config import Config
 
 batch_lock = asyncio.Lock()
-bot_id = conf.BOT_TOKEN.split(":", 1)[0]
+bot_id = Config.BOT_TOKEN.split(":", 1)[0]
 botStartTime = time.time()
 caption_file = "NO_CAPTION"
 ffmpeg_file = "ffmpeg.txt"
